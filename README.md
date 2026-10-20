@@ -285,7 +285,7 @@ Launch Jupyter Notebook
 jupyter notebook
 ```
 
-Open `notebooks/credit_card_fraud_detection.ipynb`
+Open `notebook/credit_card_fraud_detection.ipynb`
 
 ---
 
