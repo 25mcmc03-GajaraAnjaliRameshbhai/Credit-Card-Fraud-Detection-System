@@ -3,7 +3,7 @@
 ![Python](https://img.shields.io/badge/Python-3.12-blue)
 ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-ML-orange)
 ![XGBoost](https://img.shields.io/badge/XGBoost-Gradient%20Boosting-green)
-
+[![Streamlit](https://img.shields.io/badge/Streamlit-Live%20Demo-red)](https://credit-card-fraud-detection-system-anjali.streamlit.app/)
 
 > A machine learning project for detecting fraudulent credit card transactions using supervised learning techniques. This project addresses the severe class imbalance using **SMOTE**, evaluates multiple classification models, and selects the best-performing model based on **Precision-Recall AUC (PR-AUC)**.
 
@@ -245,7 +245,7 @@ credit-card-fraud-detection/
 ├── model/
 │   └── fraud_pipeline.joblib             # Trained pipeline (scaler + SMOTE + model)
 │
-├── notebooks/
+├── notebook/
 │   └── credit_card_fraud_detection.ipynb # Complete ML workflow
 │
 ├── data/
@@ -311,7 +311,7 @@ streamlit run app.py
 ```
 
 Upload a CSV of transactions (see `app/sample.csv` for the expected format).
-
+**[Live demo →](https://credit-card-fraud-detection-system-anjali.streamlit.app/)**
 ---
 
 ## 🔮 Future Improvements
